@@ -6,4 +6,4 @@ POC de code C compilé vers webassembly
 
 ## Modus operandi
 * Récupérer l'image docker emscriptem (écite d'avoir à installer l'environnement et tout le gazouilli)
-> docker pull trzeci/emscriptem
+> `docker pull trzeci/emscriptem`
