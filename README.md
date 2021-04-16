@@ -9,5 +9,5 @@ POC de code C compilé vers webassembly
 > `docker pull trzeci/emscriptem`
 * Invoquer le compilateur emcc à taravers le container
 > `sudo docker run --rm -v $(pwd):/src trzeci/emscripten emcc -O3 -s WASM=1 -s EXTRA_EXPORTED_RUNTIME_METHODS='["cwrap"]' fibonacci.c`
-* Pour simplifier l'appel, j'ai créé le build.sh
+* Pour simplifier l'appel, j'ai créé le script build.sh
 > `build.sh`
